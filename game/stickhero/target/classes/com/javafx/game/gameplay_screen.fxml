@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<Pane xmlns:fx="http://javafx.com/fxml" prefHeight="800" prefWidth="1600">
+    <!-- Background Image -->
+    <ImageView fitWidth="1600" fitHeight="800" pickOnBounds="true" preserveRatio="false">
+        <Image url="@actual_bg.jpg"/> <!-- Replace with your image file path -->
+    </ImageView>
+
+    <!-- Black box 1 -->
+    <Rectangle x="50" y="300" width="100" height="500" fill="black"/>
+    <!-- Black box 2 -->
+    <Rectangle x="200" y="500" width="300" height="300" fill="black"/>
+    <!-- Black box 3 -->
+    <Rectangle x="600" y="400" width="500" height="400" fill="black"/>
+    <!-- Black box 4 -->
+    <Rectangle x="1250" y="450" width="150" height="350" fill="black"/>
+    <!-- Black box 5 -->
+    <Rectangle x="1500" y="500" width="100" height="300" fill="black"/>
+
+</Pane>
